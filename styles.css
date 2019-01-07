@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+.timer{
+	width: 700px;
+	margin: 10px auto;
+	text-align: center;
+	overflow: auto;
+	background-color: #f2f2f2;
+	padding-bottom: 40px;
+}
+.timer-screen{
+	width: 450px;
+	height: 150px;
+	position: relative;
+	margin: 10px auto 30px auto;
+	border: 3px solid #b2b2b2;
+	padding: 20px;
+	font-size: 90px;
+}
+#state{
+	position: absolute;
+	right: 10;
+	top: 5;
+	font-size: 20px;
+	color: #000;
+}
+.btn-group button{
+	font-size: 2rem;
+	padding: 5px 25px;
+	margin: 0px 10px;
+}
